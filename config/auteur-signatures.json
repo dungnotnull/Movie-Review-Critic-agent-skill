@@ -1,0 +1,176 @@
+{
+  "version": "1.0.0",
+  "description": "Director signature elements for auteur analysis. Add to this database as you analyze more directors.",
+  "directors": {
+    "alfred_hitchcock": {
+      "name": "Alfred Hitchcock",
+      "status": "strong_auteur",
+      "signature_elements": [
+        "Suspense built through viewer knowledge",
+        "Blonde heroines with icy exterior/vulnerable interior",
+        "Wrong man accused scenario",
+        "MacGuffin plot devices",
+        "Cameo appearances in own films",
+        "Exploration of voyeurism and looking",
+        "Verticality (heights, falling) imagery",
+        "Mothers as source of psychosis or threat"
+      ],
+      "visual_style": "Expressionist lighting, dolly zoom, constrained spaces",
+      "thematic_preoccupations": ["Guilt", "Obsession", "Identity", " voyeurism", "Transference of guilt"],
+      "career_phases": ["British period (1925-1939)", "Hollywood golden age (1940-1950s)", "Late period (1960s)"]
+    },
+    "stanley_kubrick": {
+      "name": "Stanley Kubrick",
+      "status": "strong_auteur",
+      "signature_elements": [
+        "Cold, detached observational style",
+        "Obsessive attention to technical detail",
+        "Use of classical music in ironic contexts",
+        "Exploration of dehumanization and technology",
+        "Symmetrical compositions",
+        "Long takes and slow push-ins",
+        "Steadicam innovations",
+        "Unflinching depiction of violence"
+      ],
+      "visual_style": "Ultra-wide lenses, natural lighting, symmetry, cold color palette",
+      "thematic_preoccupations": ["Human nature's dark side", "Technology's dehumanizing effect", "Institutional control", "Existential absurdity"],
+      "career_phases": ["Early noir period", "Middle period war and satire", "Late period masterpieces"]
+    },
+    "martin_scorsese": {
+      "name": "Martin Scorsese",
+      "status": "strong_auteur",
+      "signature_elements": [
+        "Exploration of guilt and redemption (often Catholic)",
+        "Violence as aesthetic and thematic element",
+        "Male-dominated narratives with toxic masculinity",
+        "New York settings",
+        "Rock/pop music scores",
+        "Rapid editing and camera movement",
+        "Collaboration with De Niro/DiCaprio",
+        "Exploration of American identity"
+      ],
+      "visual_style": "Fluid camera work, freeze frames, slow motion, vibrant color",
+      "thematic_preoccupations": ["Guilt and redemption", "Violence and masculinity", "Identity and self-destruction", "American dream corruption"],
+      "career_phases": ["Early indie period", "Hollywood consolidation", "Late career retrospection"]
+    },
+    "wes_anderson": {
+      "name": "Wes Anderson",
+      "status": "strong_auteur",
+      "signature_elements": [
+        "Symmetrical compositions and center framing",
+        "Pastel color palettes",
+        "Dysfunctional family dynamics",
+        "Precocious child characters",
+        "Deadpan humor and dialogue",
+        "Ensemble casts with recurring actors",
+        "Quirkiness as aesthetic and worldview",
+        "Storybook or fairy tale quality"
+      ],
+      "visual_style": "Symmetry, flat compositions, vibrant pastels, deliberate artifice",
+      "thematic_preoccupations": ["Family dysfunction", "Loss and nostalgia", "Precocious childhood", "Authority figures"],
+      "career_phases": ["Early indie work", "Mid-career consolidation", "Technical refinement"]
+    },
+    "christopher_nolan": {
+      "name": "Christopher Nolan",
+      "status": "strong_auteur",
+      "signature_elements": [
+        "Non-linear narratives",
+        "Time manipulation and memory",
+        "Practical effects over CGI",
+        "IMAX cinematography",
+        "Exploration of identity and reality",
+        "Brooding male protagonists",
+        "Complex puzzle narratives",
+        "Existential and philosophical themes"
+      ],
+      "visual_style": "Large-format cameras, in-camera effects, muted color palette",
+      "thematic_preoccupations": ["Time and memory", "Identity and reality", "Moral ambiguity", "Existential choice"],
+      "career_phases": ["Indie debut", "Mainstream consolidation", "Large-format spectacle"]
+    },
+    "quentin_tarantino": {
+      "name": "Quentin Tarantino",
+      "status": "strong_auteur",
+      "signature_elements": [
+        "Non-linear narrative structure",
+        "Extended dialogue scenes",
+        "Violence as aesthetic and catharsis",
+        "Pop culture references and homages",
+        "Ensemble casts with surprising connections",
+        "Revenge narratives",
+        "Soundtrack as narrative commentary",
+        "Feet imagery"
+      ],
+      "visual_style": "Dynamic camera work, chapter titles, vibrant color",
+      "thematic_preoccupations": ["Revenge and justice", "Pop culture and media", "Violence as entertainment", "Redemption"],
+      "career_phases": ["Early indie period", "Mid-career revisionism", "Late career retrospection"]
+    },
+    "hayao_miyazaki": {
+      "name": "Hayao Miyazaki",
+      "status": "strong_auteur",
+      "signature_elements": [
+        "Flying and aviation imagery",
+        "Strong female protagonists",
+        "Anti-war and pacifist themes",
+        "Environmental concerns",
+        "Magical realism integration",
+        "Coming-of-age narratives",
+        "Complex morality (no clear villains)",
+        "Hand-drawn animation advocacy"
+      ],
+      "visual_style": "Lush backgrounds, detailed mechanical design, vibrant color",
+      "thematic_preoccupations": ["Peace vs. war", "Nature vs. technology", "Childhood and maturity", "Moral complexity"],
+      "career_phases": ["Early television work", "Ghibli consolidation", "Late career masterpieces"]
+    },
+    "akira_kurosawa": {
+      "name": "Akira Kurosawa",
+      "status": "strong_auteur",
+      "signature_elements": [
+        "Heroic individualism vs. social duty",
+        "Weather as narrative element (rain, wind)",
+        "Multiple perspective compositions",
+        "Wipe transitions",
+        "Samurai and ronin characters",
+        "Exploration of truth and perception",
+        "Influence from Western cinema",
+        "Ensemble narratives"
+      ],
+      "visual_style": "Telephoto lenses, dynamic composition, weather effects",
+      "thematic_preoccupations": ["Honor and duty", "Individual vs. society", "Truth and perception", "Heroism and sacrifice"],
+      "career_phases": ["Postwar humanism", "Mid-career period films", "Late epic works"]
+    },
+    "greta_gerwig": {
+      "name": "Greta Gerwig",
+      "status": "moderate_auteur",
+      "signature_elements": [
+        "Female friendship and solidarity",
+        "Coming-of-age narratives",
+        "Literary adaptation with modern sensibility",
+        "Exploration of ambition and creativity",
+        "Warm color palettes",
+        "Ensemble female casts",
+        "Nostalgia as both theme and aesthetic",
+        "Collaboration with recurring actors"
+      ],
+      "visual_style": "Warm tones, natural light, intimate framing",
+      "thematic_preoccupations": ["Female friendship", "Ambition and creativity", "Identity formation", "Nostalgia"],
+      "career_phases": ["Acting career", "Mumblecore indie roots", "Mainstream auteur emergence"]
+    },
+    "jordan_peele": {
+      "name": "Jordan Peele",
+      "status": "moderate_auteur",
+      "signature_elements": [
+        "Social horror blending thriller and satire",
+        "Exploration of racial themes",
+        "Doppelganger and identity themes",
+        "Sun-drenched horror aesthetic",
+        "Earpiece imagery",
+        "Exploration of exploitation and complicity",
+        "Genre hybridization",
+        "Pop culture integration"
+      ],
+      "visual_style": "Bright lighting for horror, distinctive color palettes",
+      "thematic_preoccupations": ["Race and exploitation", "Identity and duality", "Social complicity", "Media and spectacle"],
+      "career_phases": ["Comedy background", "Horror debut", "Genre expansion"]
+    }
+  }
+}

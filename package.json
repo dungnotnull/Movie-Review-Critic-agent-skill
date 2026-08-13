@@ -1,0 +1,51 @@
+{
+  "name": "movie-review-critic",
+  "version": "1.0.0",
+  "description": "Production-grade skill for writing structured, defensible film reviews using established film-criticism frameworks",
+  "main": "SKILL.md",
+  "scripts": {
+    "token-count": "ts-node scripts/token-counter.ts",
+    "spoiler-detect": "ts-node scripts/spoiler-detector.ts",
+    "scoring-calc": "ts-node scripts/scoring-calculator.ts",
+    "review-validate": "ts-node scripts/review-validator.ts",
+    "test": "npm run review-validate SKILL.md",
+    "build": "tsc",
+    "dev": "ts-node"
+  },
+  "keywords": [
+    "film-criticism",
+    "movie-reviews",
+    "film-analysis",
+    "cinema",
+    "screenwriting",
+    "narrative-structure",
+    "film-theory"
+  ],
+  "author": "Movie Review Critic Skill",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/movie-review-critic"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/movie-review-critic/issues"
+  },
+  "homepage": "https://github.com/your-org/movie-review-critic#readme",
+  "skill": {
+    "name": "movie-review-critic",
+    "version": "1.0.0",
+    "description": "Production-grade film analysis skill using academic film-criticism frameworks",
+    "compatibility": {
+      "platforms": ["claude-code", "claude.ai"],
+      "minimumVersion": "1.0.0"
+    }
+  }
+}

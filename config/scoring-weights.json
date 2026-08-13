@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "description": "Weight configuration for MCDA scoring rubric. Customize these weights for specialized film types (experimental, documentary, genre films). Ensure weights sum to 1.0.",
+  "standard": {
+    "narrative": 0.25,
+    "visual_craft": 0.25,
+    "performance": 0.20,
+    "audiovisual": 0.15,
+    "originality": 0.10,
+    "coherence": 0.05
+  },
+  "experimental": {
+    "narrative": 0.10,
+    "visual_craft": 0.35,
+    "performance": 0.15,
+    "audiovisual": 0.25,
+    "originality": 0.15,
+    "coherence": 0.00
+  },
+  "documentary": {
+    "narrative": 0.30,
+    "visual_craft": 0.20,
+    "performance": 0.10,
+    "audiovisual": 0.20,
+    "originality": 0.15,
+    "coherence": 0.05
+  },
+  "genre_drama": {
+    "narrative": 0.30,
+    "visual_craft": 0.20,
+    "performance": 0.25,
+    "audiovisual": 0.10,
+    "originality": 0.10,
+    "coherence": 0.05
+  },
+  "genre_comedy": {
+    "narrative": 0.20,
+    "visual_craft": 0.15,
+    "performance": 0.30,
+    "audiovisual": 0.10,
+    "originality": 0.20,
+    "coherence": 0.05
+  },
+  "genre_horror": {
+    "narrative": 0.20,
+    "visual_craft": 0.25,
+    "performance": 0.15,
+    "audiovisual": 0.25,
+    "originality": 0.10,
+    "coherence": 0.05
+  },
+  "genre_action": {
+    "narrative": 0.15,
+    "visual_craft": 0.30,
+    "performance": 0.20,
+    "audiovisual": 0.25,
+    "originality": 0.05,
+    "coherence": 0.05
+  }
+}

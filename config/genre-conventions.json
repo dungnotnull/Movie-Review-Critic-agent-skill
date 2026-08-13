@@ -1,0 +1,210 @@
+{
+  "version": "1.0.0",
+  "description": "Genre-specific conventions for analysis. Use these to identify which conventions films adhere to, innovate upon, or subvert.",
+  "genres": {
+    "drama": {
+      "conventions": [
+        "Character-driven narrative",
+        "Focus on emotional conflict and development",
+        "Realistic setting and situations",
+        "Dialogue-based scenes",
+        "Internal character transformation",
+        "Social or psychological themes",
+        "Emphasis on actor performance",
+        "Minimal reliance on spectacle"
+      ],
+      "subgenres": {
+        "period_drama": ["Historical accuracy", "Costume/setting authenticity", "Social class themes"],
+        "family_drama": ["Interpersonal conflict", "Domestic settings", "Relationship evolution"],
+        "melodrama": ["Heightened emotion", "Clear moral stakes", "Emotional resolution"]
+      }
+    },
+    "comedy": {
+      "conventions": [
+        "Humorous dialogue and situations",
+        "Lighthearted tone despite conflicts",
+        "Comic timing and rhythm",
+        "Exaggerated characters or situations",
+        "Happy or optimistic resolution",
+        "Entertainment over seriousness",
+        "Visual gags and slapstick (in physical comedy)",
+        "Irony and wit"
+      ],
+      "subgenres": {
+        "romantic_comedy": ["Meet-cute scenario", "Obstacles to romance", "Happy ending together"],
+        "satire": ["Social critique through humor", "Exaggeration for effect", "Irony and sarcasm"],
+        "dark_comedy": ["Morbid humor", "Taboo subjects", "Tone dissonance"]
+      }
+    },
+    "horror": {
+      "conventions": [
+        "Tension and suspense building",
+        "Fear and shock responses",
+        "Supernatural or monstrous threats",
+        "Isolation of protagonists",
+        "Visceral imagery and sound",
+        "Cathartic survival or tragedy",
+        "Exploration of primal fears",
+        "Atmosphere of dread"
+      ],
+      "subgenres": {
+        "slasher": ["Killer antagonist", "Teen victims", "Graphic violence"],
+        "psychological_horror": ["Mental disturbance", "Unreliable reality", "Internal threats"],
+        "supernatural_horror": ["Ghosts/demons", "Paranormal phenomena", "Religious themes"]
+      }
+    },
+    "action": {
+      "conventions": [
+        "Physical conflict and stunts",
+        "Clear protagonist-antagonist dynamic",
+        "Pacing oriented around action set pieces",
+        "Visual spectacle over dialogue",
+        "Hero's competence and skill",
+        "High stakes and consequences",
+        "Kinetic camera work and editing",
+        "Sound effects emphasis"
+      ],
+      "subgenres": {
+        "superhero": ["Extraordinary abilities", "Costumed hero", "Saving the world stakes"],
+        "martial_arts": ["Hand-to-hand combat", "Physical skill display", "Honor themes"],
+        "disaster": ["Large-scale threat", "Ensemble cast", "Survival focus"]
+      }
+    },
+    "thriller": {
+      "conventions": [
+        "Tension and suspense over horror",
+        "Plot-driven suspense",
+        "Psychological cat-and-mouse",
+        "Information revelation management",
+        "Paranoia or mistrust themes",
+        "Clock-based stakes",
+        "Mystery or puzzle elements",
+        "Ambiguous morality"
+      ],
+      "subgenres": {
+        "psychological_thriller": ["Mental manipulation", "Unreliable narrator", "Identity themes"],
+        "espionage_thriller": ["Spy tradecraft", "Political stakes", "Trust issues"],
+        "crime_thriller": ["Criminal underworld", "Moral ambiguity", "Cat-and-mouse pursuit"]
+      }
+    },
+    "science_fiction": {
+      "conventions": [
+        "Speculative technology or science",
+        "Future or alternate settings",
+        "Exploration of scientific/technological consequences",
+        "World-building beyond reality",
+        "Questions of human nature through change",
+        "Visual spectacle of imagined worlds",
+        "Themes of progress and its dangers",
+        "Alien or artificial intelligences"
+      ],
+      "subgenres": {
+        "space_opera": ["Interstellar conflict", "Epic scale", "Adventure elements"],
+        "cyberpunk": ["High-tech/low-life", "Corporate power", "Human-machine integration"],
+        "dystopian": ["Oppressive society", "Resistance themes", "Warning about present"]
+      }
+    },
+    "fantasy": {
+      "conventions": [
+        "Magic or supernatural elements",
+        "Mythical creatures or beings",
+        "Quest or journey structure",
+        "Clear moral dichotomy",
+        "World-building with its own rules",
+        "Epic stakes and consequences",
+        "Mythic archetypes and structure",
+        "Visual spectacle of magical elements"
+      ],
+      "subgenres": {
+        "high_fantasy": ["Medieval setting", "Magic systems", "Epic good vs evil"],
+        "urban_fantasy": ["Modern setting with magic", "Hidden supernatural world", "Cross-world tensions"],
+        "dark_fantasy": ["Grim tone", "Moral ambiguity", "Horror elements"]
+      }
+    },
+    "romance": {
+      "conventions": [
+        "Central love story",
+        "Character attraction and compatibility",
+        "Obstacles to relationship",
+        "Emotional intimacy focus",
+        "Relationship evolution",
+        "Happy or tragic resolution",
+        "Focus on chemistry and attraction",
+        "Personal growth through love"
+      ],
+      "subgenres": {
+        "historical_romance": ["Period setting", "Social constraints", "Class themes"],
+        "contemporary_romance": ["Modern setting", "Career/family balance", "Digital communication"],
+        "tragic_romance": ["Doomed love", "External obstacles", "Sad ending"]
+      }
+    },
+    "western": {
+      "conventions": [
+        "American frontier setting",
+        "Law vs. lawlessness themes",
+        "Loner or drifter protagonist",
+        "Morality in wilderness",
+        "Physical conflict and guns",
+        "Civilization vs. nature",
+        "Honor and justice codes",
+        "Wide open spaces imagery"
+      ],
+      "subgenres": {
+        "classical_western": ["Clear moral codes", "Heroic protagonist", "Settlement vs. wilderness"],
+        "revisionist_western": ["Moral ambiguity", "Historical accuracy", "Deconstruction of myths"],
+        "spaghetti_western": ["Stylized violence", "Moral ambiguity", "Visual flair"]
+      }
+    },
+    "musical": {
+      "conventions": [
+        "Musical numbers integrated into narrative",
+        "Song and dance performances",
+        "Emotional expression through music",
+        "Choreographed movement",
+        "Music-driven pacing",
+        "Suspension of realism for numbers",
+        "Themes of performance and expression",
+        "Audiovisual spectacle"
+      ],
+      "subgenres": {
+        "stage_musical_adaptation": ["Theatrical origins", "Ensemble numbers", "Integrated score"],
+        "jukebox_musical": ["Pre-existing songs", "Thematic song arrangement", "Nostalgia appeal"],
+        "dance_musical": ["Choreography emphasis", "Movement storytelling", "Visual performance"]
+      }
+    },
+    "war": {
+      "conventions": [
+        "Combat or military setting",
+        "Soldier experiences and perspectives",
+        "Courage under fire themes",
+        "Bonding in adversity",
+        "Futility or glory of war themes",
+        "Historical basis or grounding",
+        "Leadership and sacrifice",
+        "Physical and emotional toll"
+      ],
+      "subgenres": {
+        "combat_film": ["Battle sequences", "Unit cohesion", "Tactical action"],
+        "prisoners_of_war": ["Captivity setting", "Escape themes", "Resistance"],
+        "anti_war_film": ["Critical of conflict", "Trauma emphasis", "Political critique"]
+      }
+    },
+    "noir": {
+      "conventions": [
+        "Cynical protagonist",
+        "Femme fatale figure",
+        "Urban crime setting",
+        "Moral ambiguity",
+        "Voiceover narration",
+        "High-contrast lighting",
+        "Fatalistic worldview",
+        "Corruption and betrayal themes"
+      ],
+      "subgenres": {
+        "classic_noir": ["1940s-50s setting", "Black and white", "Expressionist lighting"],
+        "neo_noir": ["Contemporary setting", "Color with noir themes", "Modern corruption"],
+        "tech_noir": ["Technology themes", "Surveillance", "Digital paranoia"]
+      }
+    }
+  }
+}
